@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can walk you through the different aspects of the civil engineering programme at IIT Kanpur, including branch changes, internships, placement preparation, dual degrees, double majors, courses-related, UGP, professor reviews, grading, and template-related issue."],
+         "context": [""]
+        },
+        {"tag": "Double major",
+         "patterns": ["In which sem we can do double major ?","If I  have done double major then which department I can write while sitting for placement?","Can I terminate double major?","Regrading OE credits","How they will manage courses as I have 36 credit of OE, no place for courses of secondary department"],
+         "responses": ["We can do double major in the end of 4th sem or in the end of 7th sem","You eligible fo both department while sitting for placement.","Yes you can terminate double major any time, only you have to take permission from dugc of both department from terminating double major. ","Your 36 credits of OE will be waive off and you have to do courses of your secondary department in place of OE.","Please visit: https://docs.google.com/document/d/15BgvSh2JlFkaoGpsQ1QaiPuKYTBWdgjh0JHoL-1Nbs0/edit"],
+         "context": [""]
+        },
+        {"tag": "Placement",
+         "patterns": ["Please provide placement details","How many companies came for civil","How many companies open for Civil branch in core","Average CTC for civil branch in placement","Good companies open for Civil non-core","core","non core"],
+         "responses": ["In Placement drive 2022-23 phase 1, on an average there are 350+ companies came for placement in which approximately 65-70% companies are open for civil branch(Core and non-core)","In civil core there are many less companies came for placement and also CTC is also not so good as compare to non-core profiles","On an average CTC for civil core is 6-7 lpa and highest upto 12-14 lpa","Good companies open for civil non-core open are: Amazon, Accenture, American express, Apollo, Capital one, Deal share, Flipkart, Ford motor, Google, Groww, Hilabs, and many more. Almost 60-70% good companies came for placement open for civil branch for non-core profiles","For placement details please open doc- https://docs.google.com/document/d/1ToI-oB643oO2OTC00PzO9xZzbnWDisr41ZZUORh2DeM/edit"],
+         "context": [""]
+        },
+        {"tag": "Course review",
+         "patterns": ["How tough is ESO202A?","How tough is ESO208A?","How tough is CE262A?"],
+         "responses": ["ESO202A course is only tough because of professor's grading, there is a trend in IITK that in eso202a professor will failing many student, sometimes number of failing student will be unexpected. So for safe zone work hard from starting if you manage from starting you will easily pass this course.","While some professors make their classes difficult for their students, others make their classes simple for you.However, some courses in the civil department, such as ESO202A and ESO208A, are always challenging for students.","You should work hard for ESO208A, you have to practice more for this course.","For more details regarding course talk to your seniors."],
+         "context": []
+        },
+        {"tag": "Professor Grading",
+         "patterns": ["What grade I can get in this course ","Grading","Professor"],
+         "responses": ["For grading details there are some previous year data you should check here-https://incog-nahito.github.io/grades/faculty/","For grading related informaion you should talk to your seniors which did course under this prof."],
+         "context": [""]
+        },
+        {"tag": "Course details",
+         "patterns": ["Please provide me details of this course."],
+         "responses": ["You should visit this site where you will get to know who take this course in previous years and how many students did this course under prof: http://172.26.142.68/dccourse/","For more course details visit official website of civil department of IITK."],
+         "context": []
+        },
+        {"tag": "Official Websites",
+         "patterns": ["Civil Engineering department in IITK","CE department important link"],
+         "responses": ["Plese go through this doc: https://docs.google.com/document/d/1Dq_f81V46PLIl6BZFbRHFE9e6h2u8TKT8rhv12lElL0/edit"],
+         "context": [""]
+        },
+        {"tag": "Template",
+         "patterns": ["Template issue","Give me CE course template"],
+         "responses": ["For template issue talk to DUGC of your department","Course template: https://www.iitk.ac.in/civil/data/B._Tech_Template.PDF"],
+         "context": []
+        },
+        {"tag": "Dual Degree",
+         "patterns": ["Procedure for dual degree","how can we change our degree into dual degree","Can I terminate dual degree anytime","How I manage my course template as there are many courses to do how I can manage it.","How many credits I have to do for dual degree?","In placement which CPI they will consider for CPI criteria?"],
+         "responses": ["Yes you can terminate dual degree, only you have to take permission from dugc and dpgc of your department.","You only have to do 63 credits of PG courses, for this 45 credits of OE and 9 credits of DE-B will waive off.","They will consider your PG CPI for cutoff in placement process not UG CPI.","For more details- https://docs.google.com/document/d/15BgvSh2JlFkaoGpsQ1QaiPuKYTBWdgjh0JHoL-1Nbs0/edit"],
+         "context": []
+        },
+        {"tag": "Branch Change",
+         "patterns": ["How difficult to change branch from civil to any branch?","tell me about branch change","cpi criteria for branch                  change"],
+         "responses": ["Branch change in civil is not so easy as every branch has their own criteria you will have to work hard for changing your branch","please check this Document for cpi creteria- https://docs.google.com/document/d/1Dq_f81V46PLIl6BZFbRHFE9e6h2u8TKT8rhv12lElL0/edit"],
+         "context": [""]
+        },
+        {"tag": "Projects",
+         "patterns": ["Research Projects","Surge","UGP","How to get a good project?","Is there any prerequisite for getting project ?","Any CPI criteria for getting projects"],
+         "responses": ["Prerequisite for project is depend on prof they will give you projects so basically it is totally depend on them.","For good project you can talk to professor of your branch or of another according to yor interest, in your branch there is higher chance of getting project, SoCE is also provide many good project which you can add in your resume, SnT also provide projects you can do their projects too, SURGE is also a good option.","May be there is any CPI criteria for SURGE project or for doing project under professor some prof also see your CPI but in SoCE and SnT there is no CPI criteria yet.","For more details visit- https://docs.google.com/document/d/1GvJYcaEI_uUdTZZjxF91d9qheFlD8Qn0z5TCLEaZZt4/edit?usp=sharing"],
+         "context": []
+        },
+        {"tag": "Internship",
+         "patterns": ["Profiles for internship","how to grabe internship","How to take Industrial Intern in civil?","What are all the ways I can go for Interns in core?","CPI Criteria for core internship","What all are the options for me to do intern in Core?"],
+         "responses": ["For industrial interns, it is true that you will not have much flexibility and opportunities to grab an internship of your interest through on-campus opportunities,  you have to search the companies or startups relevant to your interests and then start approaching them through cold mailing and LinkedIn, or you can just keep an eye on the career page of the interested companies.","To prepare your resume for Core internships, a good CPI, like 8+, will be a plus point, but it is not the limiting point; you can prepare your resume even if you don't have a good CPI. You should learn relevant software and do some of the projects and courses in the domain you are targeting","The industrial interns may have the field work, and sometimes may have the data processing and other work, it will depend on the startup/company you are joining, also your domain, that where you want to apply","For more details see doc- https://docs.google.com/document/d/1ac-iMkThBlVj1PbeTTk-sWiPSkcFfZj7_xQSjUFGmBE/edit?usp=sharing"],
+         "context": [""]
+        }
+   ]
+}
